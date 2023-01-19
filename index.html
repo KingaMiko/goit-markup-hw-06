@@ -661,6 +661,7 @@
               </li>
             </ul>
           </div>
+          <!-- newsletter -->
           <div>
             <form class="newsletter-form">
               <label class="newsletter-label" for="user_email"
@@ -677,7 +678,7 @@
 
                 <button class="signup-button" type="submit">
                   Zapisz się
-                  <svg class="signup-icon">
+                  <svg class="signup-icon" width="24px" height="24px">
                     <use href="./images/icons/icons.svg#icon-icon-send"></use>
                   </svg>
                 </button>
@@ -696,6 +697,60 @@
             ></use>
           </svg>
         </button>
+        <h3 class="modal-form-title">Zostaw swoje dane w formularzu</h3>
+        <form class="modal-form">
+          <label class="modal-label" for="user_name"
+            >Imie
+            <span class="modal-field">
+              <input
+                class="modal-input"
+                type="text"
+                name="name"
+                id="user_name"
+                required
+              />
+              <svg class="modal-form-icons" width="18px" height="18px">
+                <use
+                  href="./images/icons/icons.svg#icon-person-black-18dp-1"
+                ></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-label" for="user_telephone"
+            >Telefon
+            <span class="modal-field">
+              <input
+                class="modal-input"
+                type="tel"
+                name="telephone"
+                id="user_telephone"
+                required
+              />
+              <svg class="modal-form-icons" width="18px" height="18px">
+                <use
+                  href="./images/icons/icons.svg#icon-phone-black-18dp-1"
+                ></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-label" for="user_email"
+            >Email
+            <span class="modal-field">
+              <input
+                class="modal-input"
+                type="email"
+                name="email"
+                id="user_email"
+                required
+              />
+              <svg class="modal-form-icons" width="18px" height="18px">
+                <use
+                  href="./images/icons/icons.svg#icon-email-black-18dp-1"
+                ></use>
+              </svg>
+            </span>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
