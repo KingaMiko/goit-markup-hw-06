@@ -697,6 +697,8 @@
             ></use>
           </svg>
         </button>
+
+        <!-- modal form -->
         <h3 class="modal-form-title">Zostaw swoje dane w formularzu</h3>
         <form class="modal-form">
           <label class="modal-label" for="user_name"
@@ -750,6 +752,34 @@
               </svg>
             </span>
           </label>
+          <label class="modal-label" for="user_comment">
+            Komenatrz
+            <textarea
+              class="modal-field-comment"
+              name="feedback"
+              id="user_comment"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </label>
+          <div class="terms-field">
+            <input
+              class="checkbox"
+              id="check"
+              type="checkbox"
+              name="terms"
+              value="terms"
+              checked
+            />
+            <label class="modal-checkbox" for="check">
+              Oświadczam iż akceptuję
+              <a class="terms-link" href="">Regulamin</a> i<a
+                class="terms-link"
+                href="#"
+                >Politykę Prywatności.</a
+              >
+            </label>
+          </div>
+          <button class="modal-button" type="submit">Wyślij</button>
         </form>
       </div>
     </div>
