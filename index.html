@@ -709,6 +709,8 @@
                 type="text"
                 name="name"
                 id="user_name"
+                minlength="2"
+                maxlength="15"
                 required
               />
               <svg class="modal-form-icons" width="18px" height="18px">
@@ -759,6 +761,8 @@
               name="feedback"
               id="user_comment"
               placeholder="Wprowadź tekst"
+              minlength="20"
+              maxlength="1000"
             ></textarea>
           </label>
           <div class="terms-field">
@@ -768,6 +772,7 @@
               type="checkbox"
               name="terms"
               value="terms"
+              required
             />
             <label class="modal-checkbox" for="check">
               <svg class="icon-checkbox" width="11px" height="8px">
