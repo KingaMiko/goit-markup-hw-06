@@ -386,6 +386,7 @@ Dozwolone globalne resetowanie stylów w zadaniu 3
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:last-child {
